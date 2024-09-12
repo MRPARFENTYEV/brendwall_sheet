@@ -16,11 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from brandwall_test_app.views import ProductList
+from brandwall_test_app.views import ProductList, ProductData
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',ProductList.as_view(),name='product')
+    path('',ProductList.as_view(),name='product'),
+    path('api/products/', ProductData.as_view(), name='product-data'),
 
 ]
 # admin - login / admin - password
