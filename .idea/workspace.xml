@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="743ca70c-8c88-4f8d-9d99-ff9944b53df1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/brandwall_test_work.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bradwall_test_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bradwall_test_project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bradwall_test_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bradwall_test_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bradwall_test_project/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brandwall_test_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="743ca70c-8c88-4f8d-9d99-ff9944b53df1" name="Changes" comment="back - end part is done">
+      <change afterPath="$PROJECT_DIR$/brandwall_test_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brandwall_test_app/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brandwall_test_app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brandwall_test_app/templates/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brandwall_test_project_db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brandwall_test_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/brandwall_test_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brandwall_test_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/brandwall_test_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +23,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MRPARFENTYEV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MRPARFENTYEV/brendwall_test_work.git&quot;,
+    &quot;accountId&quot;: &quot;249ec5e3-d08f-4096-a7f4-97faf428c88e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,13 +51,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.serializers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.serializers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.serializers">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="brandwall_test_work" />
@@ -128,7 +126,20 @@
       <option name="presentableId" value="Default" />
       <updated>1726073872582</updated>
     </task>
+    <task id="LOCAL-00001" summary="back - end part is done">
+      <option name="closed" value="true" />
+      <created>1726089818969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726089818969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="back - end part is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="back - end part is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

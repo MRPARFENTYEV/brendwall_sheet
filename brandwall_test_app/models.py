@@ -6,7 +6,7 @@ from django.core.validators import MinValueValidator
 # Создайте модель продукта с полями: название (строка), описание (текст), цена (десятичное число).
 
 class Product(models.Model):
-    title = models.CharField(max_length=255, blank=False, null=False, error_messages={'required': 'Это поле не может быть пустым'})
+    title = models.CharField(max_length=255, blank=False, null=False, error_messages={'required': 'Это поле не может быть пустым'}, unique=True)
     description = models.TextField(blank=True, null=True)
     price = models.IntegerField(validators=[MinValueValidator(1, message='похоже потребуется ввести число побольше')])
 

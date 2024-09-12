@@ -13,10 +13,11 @@ class ProductList(APIView):
     def get(self, request):
         products = Product.objects.all()
         serializer = ProductSerializer(products, many=True)
+        print(serializer.data)
         if len(products) < 1:
             return Response('Пока нет ни одного продукта')
         else:
-            return Response(serializer.data)
+            return render(request, 'product_form.html')
 
     # Создание нового продукта
     def post(self, request):
